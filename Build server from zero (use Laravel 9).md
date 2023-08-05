@@ -63,7 +63,7 @@
     In Filesystem.php line 314:       
       Could not delete /var/www/application/.:  
     ```
-    you can run command `` sudo apt install zip unzip php8.1-zip `` if you want install on php7.4 run command ``sudo apt install zip unzip php8.1-zip ``
+    you can run command `` sudo apt install zip unzip php8.1-zip `` if you want install on php7.4 run command ``sudo apt install zip unzip php7.4-zip ``
 11. now configuration config nginx, create file using command `` cd /etc/nginx/sites-available/ `` after that run command `` sudo touch application.conf `` and insert syntax like a below
     ```
     # Configure sites-avaliable nginx using php8.1 and SSL
@@ -123,4 +123,4 @@
         4. sudo apt purge apache2
     ```
 
-    
+13. Next setup is about [installing docker](https://github.com/ivannofick/tutorial-for-me/blob/main/Install%20Docker%20in%20ubuntu.md)
